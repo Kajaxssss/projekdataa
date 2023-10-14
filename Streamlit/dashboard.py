@@ -15,10 +15,6 @@ def draw_visualization(df):
     st.subheader('Histogram')
     st.write(df.hist())
 
-    # Gambar diagram batang
-    st.subheader('Bar Chart')
-    st.bar_chart(df)
-
     # Gambar diagram garis
     st.subheader('Line Chart')
     st.line_chart(df)
